@@ -6,10 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/gta8wifi
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/gta8wifi/proprietary/system/etc/audio_effects.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects.xml \
-    vendor/samsung/gta8wifi/proprietary/system/etc/audio_effects_common.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects_common.conf \
-    vendor/samsung/gta8wifi/proprietary/system/etc/audio_effects_model.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects_model.xml \
-    vendor/samsung/gta8wifi/proprietary/system/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_SYSTEM)/etc/seccomp_policy/mediacodec.policy \
     vendor/samsung/gta8wifi/proprietary/system_ext/etc/init/data_rps.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/data_rps.rc \
     vendor/samsung/gta8wifi/proprietary/vendor/atcmdlist:$(TARGET_COPY_OUT_VENDOR)/atcmdlist \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/BBAT.conf:$(TARGET_COPY_OUT_VENDOR)/etc/BBAT.conf \
@@ -272,7 +268,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/vendor.sprd.hardware.trusty@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sprd.hardware.trusty@1.0-service.rc \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/vendor.sprd.hardware.wcn@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sprd.hardware.wcn@1.0-service.rc \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/vendor_flash_recovery.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor_flash_recovery.rc \
-    vendor/samsung/gta8wifi/proprietary/vendor/etc/init/vndservicemanager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vndservicemanager.rc \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/wcn.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wcn.rc \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/lmkd_param.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lmkd_param.conf \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
@@ -1017,55 +1012,30 @@ PRODUCT_PACKAGES += \
     vendor.sprd.hardware.wcn@1.0-service \
     vendor.unisoc.hardware.power-service \
     wpa_supplicant \
-    hwsim.json \
-    hwsim_case.json \
     idlestat \
     iod \
     iwnpi \
-    json1_default.json \
     mlogservice \
     modem_control \
     modem_ctrl_dbg \
     nhMonitorCtrl \
-    oem.json \
     phasecheckserver \
-    readme \
-    readme \
     fix_cpu_freq \
-    readme \
-    readme \
     lit_cpu_freq \
-    readme \
     cpu_loading \
-    readme \
     cpu_trans_table \
-    readme \
-    readme \
     ddr_bm \
     ddr_bm_log \
-    sharkl5Pro_cm4_disable_smart_light.bin \
     fix_ddr_freq \
-    readme \
     ddr_loading \
-    readme \
     ddr_trans_table \
-    readme \
     fps_sf \
-    readme \
     fix_gpu_freq \
-    readme \
     gpu_loading \
-    readme \
     gpu_trans_table \
-    readme \
     interrupt \
-    readme \
-    readme \
-    readme \
     paras \
-    readme \
     tops \
-    readme \
     rpmbserver \
     slogmodem_vendor \
     sprdstorageproxyd \
