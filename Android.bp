@@ -9,484 +9,6 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-    name: "libarcsoft_aiscenedetection",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/system/lib/libarcsoft_aiscenedetection.so",
-            ],
-            shared_libs: [
-                "libdl",
-                "libmpbase",
-                "liblog",
-                "libc",
-                "libm",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/system/lib64/libarcsoft_aiscenedetection.so",
-            ],
-            shared_libs: [
-                "libmpbase",
-                "liblog",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libarcsoft_beauty_outfocus",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/system/lib/libarcsoft_beauty_outfocus.so",
-            ],
-            shared_libs: [
-                "libmpbase",
-                "libarcsoft_singlecam_bokeh_base",
-                "libarcsoft_beauty_performance",
-                "libc++_shared",
-                "liblog",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/system/lib64/libarcsoft_beauty_outfocus.so",
-            ],
-            shared_libs: [
-                "libmpbase",
-                "libarcsoft_singlecam_bokeh_base",
-                "libarcsoft_beauty_performance",
-                "libc++_shared",
-                "liblog",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libarcsoft_beauty_performance",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/system/lib/libarcsoft_beauty_performance.so",
-            ],
-            shared_libs: [
-                "libdl",
-                "libmpbase",
-                "liblog",
-                "libc",
-                "libm",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/system/lib64/libarcsoft_beauty_performance.so",
-            ],
-            shared_libs: [
-                "libmpbase",
-                "liblog",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libarcsoft_beautyshot",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/system/lib/libarcsoft_beautyshot.so",
-            ],
-            shared_libs: [
-                "libdl",
-                "libmpbase",
-                "liblog",
-                "libc",
-                "libm",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/system/lib64/libarcsoft_beautyshot.so",
-            ],
-            shared_libs: [
-                "libmpbase",
-                "liblog",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libarcsoft_dehaze",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/system/lib/libarcsoft_dehaze.so",
-            ],
-            shared_libs: [
-                "libmpbase",
-                "liblog",
-                "libdl",
-                "libc",
-                "libm",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/system/lib64/libarcsoft_dehaze.so",
-            ],
-            shared_libs: [
-                "libmpbase",
-                "liblog",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libarcsoft_funnyface",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/system/lib/libarcsoft_funnyface.so",
-            ],
-            shared_libs: [
-                "libc",
-                "libm",
-                "libstdc++",
-                "libdl",
-                "liblog",
-                "libandroid",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/system/lib64/libarcsoft_funnyface.so",
-            ],
-            shared_libs: [
-                "libc",
-                "libm",
-                "libstdc++",
-                "libdl",
-                "liblog",
-                "libandroid",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libarcsoft_hdr_detection",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/system/lib/libarcsoft_hdr_detection.so",
-            ],
-            shared_libs: [
-                "libdl",
-                "libmpbase",
-                "liblog",
-                "libc",
-                "libm",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/system/lib64/libarcsoft_hdr_detection.so",
-            ],
-            shared_libs: [
-                "libmpbase",
-                "liblog",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libarcsoft_high_dynamic_range",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/system/lib/libarcsoft_high_dynamic_range.so",
-            ],
-            shared_libs: [
-                "libdl",
-                "libmpbase",
-                "liblog",
-                "libc",
-                "libm",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/system/lib64/libarcsoft_high_dynamic_range.so",
-            ],
-            shared_libs: [
-                "libmpbase",
-                "liblog",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libarcsoft_low_light_shot",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/system/lib/libarcsoft_low_light_shot.so",
-            ],
-            shared_libs: [
-                "libdl",
-                "libmpbase",
-                "liblog",
-                "libc",
-                "libm",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/system/lib64/libarcsoft_low_light_shot.so",
-            ],
-            shared_libs: [
-                "libmpbase",
-                "liblog",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libarcsoft_panorama",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/system/lib/libarcsoft_panorama.so",
-            ],
-            shared_libs: [
-                "libdl",
-                "libmpbase",
-                "liblog",
-                "libc",
-                "libm",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/system/lib64/libarcsoft_panorama.so",
-            ],
-            shared_libs: [
-                "libmpbase",
-                "liblog",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libarcsoft_singlecam_bokeh",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/system/lib/libarcsoft_singlecam_bokeh.so",
-            ],
-            shared_libs: [
-                "libmpbase",
-                "liblog",
-                "libdl",
-                "libc",
-                "libm",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/system/lib64/libarcsoft_singlecam_bokeh.so",
-            ],
-            shared_libs: [
-                "libmpbase",
-                "liblog",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libarcsoft_singlecam_bokeh_base",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/system/lib/libarcsoft_singlecam_bokeh_base.so",
-            ],
-            shared_libs: [
-                "libdl",
-                "libmpbase",
-                "liblog",
-                "libc",
-                "libm",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/system/lib64/libarcsoft_singlecam_bokeh_base.so",
-            ],
-            shared_libs: [
-                "libmpbase",
-                "liblog",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libarcsoft_supernight",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/system/lib/libarcsoft_supernight.so",
-            ],
-            shared_libs: [
-                "libdl",
-                "libOpenCL",
-                "libmpbase",
-                "liblog",
-                "libc",
-                "libm",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/system/lib64/libarcsoft_supernight.so",
-            ],
-            shared_libs: [
-                "libOpenCL",
-                "libmpbase",
-                "liblog",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libdatasource",
     owner: "samsung",
     strip: {
@@ -617,34 +139,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libmpbase",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/system/lib/libmpbase.so",
-            ],
-            shared_libs: [
-                "libc",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/system/lib64/libmpbase.so",
-            ],
-            shared_libs: [
-                "libc",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libomafldrm",
     owner: "samsung",
     strip: {
@@ -723,52 +217,6 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libutils",
                 "android.hardware.media.bufferpool2-V1-ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libstagefright_bufferpool@2.0.1",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/system/lib/libstagefright_bufferpool@2.0.1.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libfmq",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "android.hardware.media.bufferpool@2.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/system/lib64/libstagefright_bufferpool@2.0.1.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libfmq",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "android.hardware.media.bufferpool@2.0",
                 "libc++",
                 "libc",
                 "libm",
@@ -929,42 +377,6 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libui",
                 "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libtrusty",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/system/lib/libtrusty.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/system/lib64/libtrusty.so",
-            ],
-            shared_libs: [
-                "liblog",
                 "libc++",
                 "libc",
                 "libm",
@@ -1920,53 +1332,6 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "both",
     relative_install_path: "egl",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "enhance.ums512",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/enhance.ums512.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libtinyxml2",
-                "libhardware",
-                "libcutils",
-                "libWhite_point_shift",
-                "libomx_cabc_sprd",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/enhance.ums512.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libtinyxml2",
-                "libhardware",
-                "libcutils",
-                "libWhite_point_shift",
-                "libomx_cabc_sprd",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
     prefer: true,
     soc_specific: true,
 }
@@ -3788,65 +3153,6 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "both",
     relative_install_path: "hw",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libGLES_mali",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libGLES_mali.so",
-            ],
-            shared_libs: [
-                "libnativewindow",
-                "libutils",
-                "liblog",
-                "libdmabufheap",
-                "libbase",
-                "libz",
-                "libcutils",
-                "arm.graphics-V2-ndk_platform",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloctypes",
-                "libhidlbase",
-                "libhardware",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libGLES_mali.so",
-            ],
-            shared_libs: [
-                "libnativewindow",
-                "libutils",
-                "liblog",
-                "libdmabufheap",
-                "libbase",
-                "libz",
-                "libcutils",
-                "arm.graphics-V2-ndk_platform",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloctypes",
-                "libhidlbase",
-                "libhardware",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
     prefer: true,
     soc_specific: true,
 }
@@ -17952,14 +17258,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-sh_binary {
-    name: "hal.json",
-    owner: "samsung",
-    src: "proprietary/vendor/bin/hal.json",
-    filename: "hal.json",
-    soc_specific: true,
-}
-
 cc_prebuilt_binary {
     name: "hqread",
     owner: "samsung",
@@ -19581,22 +18879,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-sh_binary {
-    name: "hwsim.json",
-    owner: "samsung",
-    src: "proprietary/vendor/bin/hwsim.json",
-    filename: "hwsim.json",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "hwsim_case.json",
-    owner: "samsung",
-    src: "proprietary/vendor/bin/hwsim_case.json",
-    filename: "hwsim_case.json",
-    soc_specific: true,
-}
-
 cc_prebuilt_binary {
     name: "idlestat",
     owner: "samsung",
@@ -19671,14 +18953,6 @@ cc_prebuilt_binary {
         none: true,
     },
     prefer: true,
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "json1_default.json",
-    owner: "samsung",
-    src: "proprietary/vendor/bin/json1_default.json",
-    filename: "json1_default.json",
     soc_specific: true,
 }
 
@@ -19791,14 +19065,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-sh_binary {
-    name: "oem.json",
-    owner: "samsung",
-    src: "proprietary/vendor/bin/oem.json",
-    filename: "oem.json",
-    soc_specific: true,
-}
-
 cc_prebuilt_binary {
     name: "phasecheckserver",
     owner: "samsung",
@@ -19827,24 +19093,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-sh_binary {
-    name: "readme",
-    owner: "samsung",
-    src: "proprietary/vendor/bin/power/backlight/readme",
-    filename: "readme",
-    sub_dir: "power/backlight",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "readme",
-    owner: "samsung",
-    src: "proprietary/vendor/bin/power/cpu/dvfs/readme",
-    filename: "readme",
-    sub_dir: "power/cpu/dvfs",
-    soc_specific: true,
-}
-
 cc_prebuilt_binary {
     name: "fix_cpu_freq",
     owner: "samsung",
@@ -19867,24 +19115,6 @@ cc_prebuilt_binary {
     },
     prefer: true,
     relative_install_path: "power/cpu/fix_freq",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "readme",
-    owner: "samsung",
-    src: "proprietary/vendor/bin/power/cpu/fix_freq/readme",
-    filename: "readme",
-    sub_dir: "power/cpu/fix_freq",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "readme",
-    owner: "samsung",
-    src: "proprietary/vendor/bin/power/cpu/hotplug/readme",
-    filename: "readme",
-    sub_dir: "power/cpu/hotplug",
     soc_specific: true,
 }
 
@@ -19913,15 +19143,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-sh_binary {
-    name: "readme",
-    owner: "samsung",
-    src: "proprietary/vendor/bin/power/cpu/lit_freq/readme",
-    filename: "readme",
-    sub_dir: "power/cpu/lit_freq",
-    soc_specific: true,
-}
-
 cc_prebuilt_binary {
     name: "cpu_loading",
     owner: "samsung",
@@ -19947,15 +19168,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-sh_binary {
-    name: "readme",
-    owner: "samsung",
-    src: "proprietary/vendor/bin/power/cpu/loading/readme",
-    filename: "readme",
-    sub_dir: "power/cpu/loading",
-    soc_specific: true,
-}
-
 cc_prebuilt_binary {
     name: "cpu_trans_table",
     owner: "samsung",
@@ -19978,24 +19190,6 @@ cc_prebuilt_binary {
     },
     prefer: true,
     relative_install_path: "power/cpu/trans_table",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "readme",
-    owner: "samsung",
-    src: "proprietary/vendor/bin/power/cpu/trans_table/readme",
-    filename: "readme",
-    sub_dir: "power/cpu/trans_table",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "readme",
-    owner: "samsung",
-    src: "proprietary/vendor/bin/power/ddr/bm/readme",
-    filename: "readme",
-    sub_dir: "power/ddr/bm",
     soc_specific: true,
 }
 
@@ -20043,15 +19237,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-sh_binary {
-    name: "sharkl5Pro_cm4_disable_smart_light.bin",
-    owner: "samsung",
-    src: "proprietary/vendor/bin/power/ddr/bm/tool/sharkl5Pro_cm4_disable_smart_light.bin",
-    filename: "sharkl5Pro_cm4_disable_smart_light.bin",
-    sub_dir: "power/ddr/bm/tool",
-    soc_specific: true,
-}
-
 cc_prebuilt_binary {
     name: "fix_ddr_freq",
     owner: "samsung",
@@ -20074,15 +19259,6 @@ cc_prebuilt_binary {
     },
     prefer: true,
     relative_install_path: "power/ddr/fix_freq",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "readme",
-    owner: "samsung",
-    src: "proprietary/vendor/bin/power/ddr/fix_freq/readme",
-    filename: "readme",
-    sub_dir: "power/ddr/fix_freq",
     soc_specific: true,
 }
 
@@ -20111,15 +19287,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-sh_binary {
-    name: "readme",
-    owner: "samsung",
-    src: "proprietary/vendor/bin/power/ddr/loading/readme",
-    filename: "readme",
-    sub_dir: "power/ddr/loading",
-    soc_specific: true,
-}
-
 cc_prebuilt_binary {
     name: "ddr_trans_table",
     owner: "samsung",
@@ -20145,15 +19312,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-sh_binary {
-    name: "readme",
-    owner: "samsung",
-    src: "proprietary/vendor/bin/power/ddr/trans_table/readme",
-    filename: "readme",
-    sub_dir: "power/ddr/trans_table",
-    soc_specific: true,
-}
-
 cc_prebuilt_binary {
     name: "fps_sf",
     owner: "samsung",
@@ -20170,15 +19328,6 @@ cc_prebuilt_binary {
     },
     prefer: true,
     relative_install_path: "power/frame",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "readme",
-    owner: "samsung",
-    src: "proprietary/vendor/bin/power/frame/readme",
-    filename: "readme",
-    sub_dir: "power/frame",
     soc_specific: true,
 }
 
@@ -20207,15 +19356,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-sh_binary {
-    name: "readme",
-    owner: "samsung",
-    src: "proprietary/vendor/bin/power/gpu/fix_freq/readme",
-    filename: "readme",
-    sub_dir: "power/gpu/fix_freq",
-    soc_specific: true,
-}
-
 cc_prebuilt_binary {
     name: "gpu_loading",
     owner: "samsung",
@@ -20238,15 +19378,6 @@ cc_prebuilt_binary {
     },
     prefer: true,
     relative_install_path: "power/gpu/loading",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "readme",
-    owner: "samsung",
-    src: "proprietary/vendor/bin/power/gpu/loading/readme",
-    filename: "readme",
-    sub_dir: "power/gpu/loading",
     soc_specific: true,
 }
 
@@ -20275,15 +19406,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-sh_binary {
-    name: "readme",
-    owner: "samsung",
-    src: "proprietary/vendor/bin/power/gpu/trans_table/readme",
-    filename: "readme",
-    sub_dir: "power/gpu/trans_table",
-    soc_specific: true,
-}
-
 cc_prebuilt_binary {
     name: "interrupt",
     owner: "samsung",
@@ -20306,33 +19428,6 @@ cc_prebuilt_binary {
     },
     prefer: true,
     relative_install_path: "power/interrupt",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "readme",
-    owner: "samsung",
-    src: "proprietary/vendor/bin/power/interrupt/readme",
-    filename: "readme",
-    sub_dir: "power/interrupt",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "readme",
-    owner: "samsung",
-    src: "proprietary/vendor/bin/power/loadings/readme",
-    filename: "readme",
-    sub_dir: "power/loadings",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "readme",
-    owner: "samsung",
-    src: "proprietary/vendor/bin/power/paras/readme",
-    filename: "readme",
-    sub_dir: "power/paras",
     soc_specific: true,
 }
 
@@ -20361,15 +19456,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-sh_binary {
-    name: "readme",
-    owner: "samsung",
-    src: "proprietary/vendor/bin/power/tops/readme",
-    filename: "readme",
-    sub_dir: "power/tops",
-    soc_specific: true,
-}
-
 cc_prebuilt_binary {
     name: "tops",
     owner: "samsung",
@@ -20392,15 +19478,6 @@ cc_prebuilt_binary {
     },
     prefer: true,
     relative_install_path: "power/tops",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "readme",
-    owner: "samsung",
-    src: "proprietary/vendor/bin/power/total/readme",
-    filename: "readme",
-    sub_dir: "power/total",
     soc_specific: true,
 }
 
