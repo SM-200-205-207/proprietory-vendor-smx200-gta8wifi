@@ -199,13 +199,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service.trusty.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service.trusty.rc \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service.rc \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.3-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.3-service.rc \
-    vendor/samsung/gta8wifi/proprietary/vendor/etc/init/android.hardware.health@2.1-service-samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.1-service-samsung.rc \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service.rc \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/android.hardware.media.omx@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.omx@1.0-service.rc \
-    vendor/samsung/gta8wifi/proprietary/vendor/etc/init/android.hardware.memtrack@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.memtrack@1.0-service.rc \
-    vendor/samsung/gta8wifi/proprietary/vendor/etc/init/android.hardware.power.stats@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.power.stats@1.0-service.rc \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@1.0-service.rc \
-    vendor/samsung/gta8wifi/proprietary/vendor/etc/init/android.hardware.usb@1.3-service.coral.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.3-service.coral.rc \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service.rc \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/autotest.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/autotest.rc \
@@ -227,7 +223,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/init.sprd_vdsp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.sprd_vdsp.rc \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/init.vendor.sysfw.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sysfw.rc \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/init.vibdrv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vibdrv.rc \
-    vendor/samsung/gta8wifi/proprietary/vendor/etc/init/lights-default-sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lights-default-sec.rc \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/mlogservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mlogservice.rc \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/modem_control.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/modem_control.rc \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/nhMonitorCtrl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nhMonitorCtrl.rc \
@@ -242,7 +237,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/thermald.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/thermald.rc \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/tsupplicant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tsupplicant.rc \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/vaultkeeper_common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vaultkeeper_common.rc \
-    vendor/samsung/gta8wifi/proprietary/vendor/etc/init/vendor-power-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor-power-default.rc \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/vendor.ril.wifionly.qcom.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.ril.wifionly.qcom.rc \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/vendor.samsung.hardware.biometrics.face@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.biometrics.face@2.0-service.rc \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc \
@@ -631,7 +625,6 @@ PRODUCT_PACKAGES += \
     vendor.sprd.hardware.trusty@1.0 \
     vendor.sprd.hardware.vdsp@1.0 \
     vendor.sprd.hardware.wcn@1.0 \
-    vendor.unisoc.hardware.power-V1-ndk_platform \
     vintf-codecsolution-V1-ndk_platform \
     android.hardware.soundtrigger@2.0-impl \
     audio.primary.ums512 \
@@ -859,7 +852,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.biometrics.face@2.0 \
     vendor.samsung.hardware.gnss@2.0 \
     vendor.samsung.hardware.hyper-V2-ndk_platform \
-    vendor.samsung.hardware.light-V1-ndk_platform \
     vendor.samsung.hardware.miscpower@2.0 \
     vendor.samsung.hardware.security.drk@2.0 \
     vendor.samsung.hardware.security.engmode@1.0 \
@@ -881,15 +873,11 @@ PRODUCT_PACKAGES += \
     android.hardware.cas@1.2-service.xml \
     android.hardware.dumpstate@1.1-service-lazy.xml \
     android.hardware.gatekeeper@1.0-service.trusty.xml \
-    android.hardware.health@2.1-samsung.xml \
-    android.hardware.power.stats@1.0-service-mock.xml \
     android.hardware.thermal@2.0-service.xml \
-    android.hardware.usb@1.3-service.coral.xml \
     android.hardware.wifi.hostapd.xml \
     android.hardware.wifi@1.0-service.xml \
     engmode_manifest.xml \
     hyper-default-sec.xml \
-    lights-default-sec.xml \
     manifest_android.hardware.drm@1.3-service.clearkey.xml \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
     manifest_trusty.xml \
@@ -897,7 +885,6 @@ PRODUCT_PACKAGES += \
     rebootescrow-default.xml \
     sec_c2_manifest_default.xml \
     vaultkeeper_manifest.xml \
-    vendor-power-default.xml \
     vendor.samsung.hardware.hqm@1.0-manifest.xml \
     vendor.samsung.hardware.security.widevine.keyprov-service.xml \
     vendor.samsung.hardware.tlc.iccc@1.0-manifest.xml \
@@ -937,14 +924,10 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-service.trusty \
     android.hardware.graphics.allocator@4.0-service \
     android.hardware.graphics.composer@2.3-service \
-    android.hardware.health@2.1-service-samsung \
     android.hardware.keymaster@4.0-service \
     android.hardware.media.omx@1.0-service \
-    android.hardware.memtrack@1.0-service \
-    android.hardware.power.stats@1.0-service.mock \
     android.hardware.rebootescrow-service.default \
     android.hardware.sensors@1.0-service \
-    android.hardware.usb@1.3-service.coral \
     android.hardware.wifi@1.0-service \
     hostapd \
     samsung.software.media.c2@1.0-service \
@@ -952,7 +935,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.gnss@2.0-service \
     vendor.samsung.hardware.hqm@1.0-service \
     vendor.samsung.hardware.hyper-service \
-    vendor.samsung.hardware.light-service \
     vendor.samsung.hardware.miscpower@2.0-service \
     vendor.samsung.hardware.security.drk@2.0-service \
     vendor.samsung.hardware.security.sem@1.0-service \
@@ -972,7 +954,6 @@ PRODUCT_PACKAGES += \
     vendor.sprd.hardware.thermal@2.0-service \
     vendor.sprd.hardware.trusty@1.0-service \
     vendor.sprd.hardware.wcn@1.0-service \
-    vendor.unisoc.hardware.power-service \
     wpa_supplicant \
     idlestat \
     iod \
