@@ -890,7 +890,6 @@ PRODUCT_PACKAGES += \
     engmode_manifest.xml \
     hyper-default-sec.xml \
     lights-default-sec.xml \
-    manifest.xml \
     manifest_android.hardware.drm@1.3-service.clearkey.xml \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
     manifest_trusty.xml \
