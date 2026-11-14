@@ -2416,7 +2416,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/hw/vendor.sprd.hardware.trusty@1.0-impl.so",
             ],
             shared_libs: [
-                "libclang_rt.ubsan_standalone-aarch64-android",
                 "liblog",
                 "libcutils",
                 "libutils",
@@ -5286,7 +5285,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libbinder",
                 "libbinder_ndk",
-                "android.hardware.power-V1-ndk_platform",
+                "android.hardware.power-V1-ndk",
                 "vendor.unisoc.hardware.power-V1-ndk_platform",
                 "libc++",
                 "libc",
@@ -5304,7 +5303,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libbinder",
                 "libbinder_ndk",
-                "android.hardware.power-V1-ndk_platform",
+                "android.hardware.power-V1-ndk",
                 "vendor.unisoc.hardware.power-V1-ndk_platform",
                 "libc++",
                 "libc",
@@ -5950,7 +5949,6 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libbase",
                 "libhidlbase",
-                "libhidltransport",
                 "libhardware",
                 "android.hardware.sensors@1.0",
                 "libc++",
@@ -5969,7 +5967,6 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libbase",
                 "libhidlbase",
-                "libhidltransport",
                 "libhardware",
                 "android.hardware.sensors@1.0",
                 "libc++",
@@ -8647,7 +8644,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/vendor.unisoc.hardware.power-V1-ndk_platform.so",
             ],
             shared_libs: [
-                "android.hardware.power-V1-ndk_platform",
+                "android.hardware.power-V1-ndk",
                 "libbinder_ndk",
                 "libc++",
                 "libc",
@@ -8660,7 +8657,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/vendor.unisoc.hardware.power-V1-ndk_platform.so",
             ],
             shared_libs: [
-                "android.hardware.power-V1-ndk_platform",
+                "android.hardware.power-V1-ndk",
                 "libbinder_ndk",
                 "libc++",
                 "libc",
@@ -13787,7 +13784,6 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libmpbase",
                 "libarcsoft_faceid",
-                "libhwbinder",
                 "libcamera2ndk_vendor",
                 "libcamera_metadata",
                 "libmediandk",
@@ -15230,7 +15226,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/vendor.samsung.hardware.light-V1-ndk_platform.so",
             ],
             shared_libs: [
-                "android.hardware.light-V1-ndk_platform",
+                "android.hardware.light-V1-ndk",
                 "libbinder_ndk",
                 "libc++",
                 "libc",
@@ -15857,15 +15853,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "manifest.xml",
-    owner: "samsung",
-    src: "proprietary/vendor/etc/vintf/manifest/manifest.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
     name: "manifest_android.hardware.drm@1.3-service.clearkey.xml",
     owner: "samsung",
     src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.clearkey.xml",
@@ -16462,8 +16449,6 @@ cc_prebuilt_binary {
                 "libutils",
                 "libbinder",
                 "libhidlbase",
-                "libhidltransport",
-                "libhwbinder",
                 "android.hardware.sensors@1.0",
                 "libmemion",
                 "android.hardware.wifi@1.0",
@@ -17148,7 +17133,7 @@ cc_prebuilt_binary {
             shared_libs: [
                 "libbase",
                 "libbinder_ndk",
-                "android.hardware.rebootescrow-V1-ndk_platform",
+                "android.hardware.rebootescrow-V1-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -17490,7 +17475,7 @@ cc_prebuilt_binary {
             shared_libs: [
                 "libbase",
                 "libbinder_ndk",
-                "android.hardware.light-V1-ndk_platform",
+                "android.hardware.light-V1-ndk",
                 "vendor.samsung.hardware.light-V1-ndk_platform",
                 "libc++",
                 "libc",
@@ -17752,7 +17737,6 @@ cc_prebuilt_binary {
                 "libbase",
                 "libcutils",
                 "libhidlbase",
-                "libhidltransport",
                 "liblog",
                 "libnl",
                 "libutils",
@@ -18012,7 +17996,6 @@ cc_prebuilt_binary {
             ],
             shared_libs: [
                 "libhidlbase",
-                "libhidltransport",
                 "libutils",
                 "liblog",
                 "libcutils",
@@ -18079,7 +18062,6 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/hw/vendor.sprd.hardware.trusty@1.0-service",
             ],
             shared_libs: [
-                "libclang_rt.ubsan_standalone-aarch64-android",
                 "liblog",
                 "libcutils",
                 "libutils",
@@ -18149,7 +18131,7 @@ cc_prebuilt_binary {
                 "libutils",
                 "libcutils",
                 "liblog",
-                "android.hardware.power-V1-ndk_platform",
+                "android.hardware.power-V1-ndk",
                 "vendor.unisoc.hardware.power-V1-ndk_platform",
                 "power.sprd",
                 "libc++",
