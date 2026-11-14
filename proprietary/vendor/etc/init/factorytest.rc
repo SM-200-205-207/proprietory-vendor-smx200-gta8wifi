@@ -6,6 +6,7 @@ service console-ft /system/bin/sh
     console
     user root
     group root
+    disabled
     seclabel u:r:shell:s0
 
 on property:ro.bootmode=factorytest && property:init.svc.surfaceflinger=running

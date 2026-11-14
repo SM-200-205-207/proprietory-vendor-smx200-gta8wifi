@@ -776,24 +776,7 @@ on early-boot
     chown system system /dev/sprd_bm
     chown system system /dev/dmc_mpu
 
-service bugreport /system/bin/dumpstate -d -p -z -B \
-        -o /data/data/com.android.shell/files/bugreports/bugreport
-    class late_start
-    disabled
-    oneshot
 
-#for logcat2kmsg
-service logcat2kmsg /system/bin/logcat -f /dev/kmsg
-    class core
-    user root
-    group log
-    disabled
-
-on property:persist.vendor.logcat2kmsg=on
-    start logcat2kmsg
-
-on property:persist.vendor.logcat2kmsg=off
-    stop logcat2kmsg
 # device/sprd/mpool/module/engpc/main.rc
 on post-fs-data
 #modify permission for voicetrigger dev
@@ -818,9 +801,7 @@ on boot
     write /proc/reserve_space/black_list_comm "slog,ylog,"
     write /proc/reserve_space/white_list_comm "AndroidTestSuit,"
     write /proc/reserve_space/app_guid "10000"
-# device/sprd/mpool/module/fs/march/arm64/mfeature/kernel/kernel4.14/kernel4.14.rc
-on fs
-    insmod /vendor/lib/modules/incrementalfs.ko
+
 # device/sprd/mpool/module/partition/main.rc
 on fs
     mount_all /vendor/etc/fstab.${ro.hardware} --early
@@ -841,33 +822,7 @@ on boot
     #bug 713396 expand the wmem buffer for adb uplink test
     write /proc/sys/net/core/wmem_max 4194304
     write /proc/sys/net/core/wmem_default 2097152
-# device/sprd/mpool/module/net/msoc/sharkl5Pro/sharkl5Pro.rc
-service dhcpcd_wlan0 /system/bin/dhcpcd -ABKL
-    group system dhcp
-    disabled
-    oneshot
 
-service dhcpcd_p2p /system/bin/dhcpcd -ABKL
-    group system dhcp
-    disabled
-    oneshot
-
-service dhcpcd_ipv6 /system/bin/dhcpcd -6ABKL
-    group system dhcp
-    disabled
-    oneshot
-
-service iprenew_wlan0 /system/bin/dhcpcd -n
-    class main
-    group system dhcp
-    disabled
-    oneshot
-
-service iprenew_p2p /system/bin/dhcpcd -n
-    class main
-    group system dhcp
-    disabled
-    oneshot
 # device/sprd/mpool/module/log/ylog/main.rc
 on early-init
     mkdir /dev/socket/ylog 0755 system system
