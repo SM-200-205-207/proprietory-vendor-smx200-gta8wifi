@@ -442,35 +442,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta8wifi/proprietary/vendor/usr/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl
 
 PRODUCT_PACKAGES += \
-    libarcsoft_aiscenedetection \
-    libarcsoft_beauty_outfocus \
-    libarcsoft_beauty_performance \
-    libarcsoft_beautyshot \
-    libarcsoft_dehaze \
-    libarcsoft_funnyface \
-    libarcsoft_hdr_detection \
-    libarcsoft_high_dynamic_range \
-    libarcsoft_low_light_shot \
-    libarcsoft_panorama \
-    libarcsoft_singlecam_bokeh \
-    libarcsoft_singlecam_bokeh_base \
-    libarcsoft_supernight \
-    libdatasource \
-    libdatasource_local_cache \
-    libmedia_codeclist \
-    libmpbase \
-    libomafldrm \
-    libstagefright_aidl_bufferpool2 \
-    libstagefright_bufferpool@2.0.1 \
-    libstagefright_codecbase \
-    libstagefright_framecapture_utils \
-    libstagefright_surface_utils \
-    libtrusty \
-    libhdcp2 \
-    libstagefright_hdcp \
-    libstagefright_httplive_sec \
-    libcharon \
-    libstrongswan \
     arm.graphics-V1-ndk \
     arm.graphics-V1-ndk_platform \
     arm.graphics-V2-ndk \
@@ -483,15 +454,12 @@ PRODUCT_PACKAGES += \
     camera.device@3.5-external-impl-sprd \
     camera.device@3.5-impl-sprd \
     camera.device@3.6-external-impl-sprd \
-    libGLES_mali \
-    enhance.ums512 \
     android.hardware.audio.effect@2.0-impl \
     android.hardware.audio.effect@6.0-impl \
     android.hardware.audio@2.0-impl \
     android.hardware.audio@6.0-impl \
     android.hardware.broadcastradio@1.0-impl \
     android.hardware.memtrack@1.0-impl \
-    android.hardware.renderscript@1.0-impl \
     android.hardware.sensors@1.0-impl \
     audio.bluetooth.default \
     audio.primary.default \
@@ -910,7 +878,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.wifi@2.0 \
     vendor.samsung.hardware.wifi@2.1 \
     com.samsung.android.camera.unihal.signed \
-    com.samsung.android.wifi.broadcom.signed \
     android.hardware.cas@1.2-service.xml \
     android.hardware.dumpstate@1.1-service-lazy.xml \
     android.hardware.gatekeeper@1.0-service.trusty.xml \
@@ -939,8 +906,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.wifi.hostapd.xml \
     vendor.samsung.hardware.wifi@2.0-service.xml \
     vendor.sprd.hardware.thermal@2.0-service.xml \
-    charon \
-    applypatch \
     audiodumpclient \
     boringssl_self_test32 \
     boringssl_self_test64 \
@@ -953,7 +918,6 @@ PRODUCT_PACKAGES += \
     cplogctl \
     cplogsvcctl \
     dcxsrv \
-    dumpsys \
     emservice \
     engpc \
     engpcctl \
@@ -963,7 +927,6 @@ PRODUCT_PACKAGES += \
     fsdbg_vendor \
     gpsd \
     grdm_test \
-    hal.json \
     hqread \
     android.hardware.audio.service \
     android.hardware.bluetooth@1.1-service.unisoc \
