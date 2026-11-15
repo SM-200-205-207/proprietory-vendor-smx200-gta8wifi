@@ -1093,54 +1093,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.memtrack@1.0-impl",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/hw/android.hardware.memtrack@1.0-impl.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "liblog",
-                "libhidlbase",
-                "libhardware",
-                "libutils",
-                "android.hardware.memtrack@1.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "liblog",
-                "libhidlbase",
-                "libhardware",
-                "libutils",
-                "android.hardware.memtrack@1.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "hw",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "android.hardware.sensors@1.0-impl",
     owner: "samsung",
     strip: {
@@ -5305,6 +5257,45 @@ cc_prebuilt_library_shared {
                 "libbinder_ndk",
                 "android.hardware.power-V1-ndk",
                 "vendor.unisoc.hardware.power-V1-ndk_platform",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.unisoc.hardware.power-V1-ndk_platform",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/vendor.unisoc.hardware.power-V1-ndk_platform.so",
+            ],
+            shared_libs: [
+                "android.hardware.power-V1-ndk",
+                "libbinder_ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/vendor.unisoc.hardware.power-V1-ndk_platform.so",
+            ],
+            shared_libs: [
+                "android.hardware.power-V1-ndk",
+                "libbinder_ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -15701,15 +15692,6 @@ prebuilt_etc_xml {
     name: "android.hardware.gatekeeper@1.0-service.trusty.xml",
     owner: "samsung",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.gatekeeper@1.0-service.trusty.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
-    name: "android.hardware.health@2.1-samsung.xml",
-    owner: "samsung",
-    src: "proprietary/vendor/etc/vintf/manifest/android.hardware.health@2.1-samsung.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     soc_specific: true,
