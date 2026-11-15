@@ -453,7 +453,6 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-impl \
     android.hardware.audio@6.0-impl \
     android.hardware.broadcastradio@1.0-impl \
-    android.hardware.memtrack@1.0-impl \
     android.hardware.sensors@1.0-impl \
     audio.bluetooth.default \
     audio.primary.default \
