@@ -829,7 +829,6 @@ PRODUCT_PACKAGES += \
     libengmode_tlc \
     libgrdm \
     libhwc2onfbadapter \
-    libhyper \
     libkernelbootcp.trusty \
     libkeymaster4 \
     libkeymaster4_1support \
