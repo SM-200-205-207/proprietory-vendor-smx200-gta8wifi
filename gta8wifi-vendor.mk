@@ -182,7 +182,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/fstab.enableswap:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.enableswap \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/fstab.factorytest:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.factorytest \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/fstab.ramplus:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.ramplus \
-    vendor/samsung/gta8wifi/proprietary/vendor/etc/fstab.ums512_25c10:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.ums512_25c10 \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/hearing_aid_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hearing_aid_audio_policy_configuration.xml \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/hqm_device.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hqm_device.xml \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/hyper/config_chipset.json:$(TARGET_COPY_OUT_VENDOR)/etc/hyper/config_chipset.json \
