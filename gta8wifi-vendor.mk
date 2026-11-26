@@ -194,10 +194,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.clearkey.rc \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/android.hardware.dumpstate@1.1-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.dumpstate@1.1-service-lazy.rc \
-    vendor/samsung/gta8wifi/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service.trusty.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service.trusty.rc \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service.rc \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.3-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.3-service.rc \
-    vendor/samsung/gta8wifi/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service.rc \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/android.hardware.media.omx@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.omx@1.0-service.rc \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@1.0-service.rc \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service.rc \
@@ -854,7 +852,6 @@ PRODUCT_PACKAGES += \
     com.samsung.android.camera.unihal.signed \
     android.hardware.cas@1.2-service.xml \
     android.hardware.dumpstate@1.1-service-lazy.xml \
-    android.hardware.gatekeeper@1.0-service.trusty.xml \
     android.hardware.thermal@2.0-service.xml \
     android.hardware.wifi.hostapd.xml \
     android.hardware.wifi@1.0-service.xml \
@@ -902,10 +899,8 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.3-service.clearkey \
     android.hardware.drm@1.3-service.widevine \
     android.hardware.dumpstate@1.1-service-lazy \
-    android.hardware.gatekeeper@1.0-service.trusty \
     android.hardware.graphics.allocator@4.0-service \
     android.hardware.graphics.composer@2.3-service \
-    android.hardware.keymaster@4.0-service \
     android.hardware.media.omx@1.0-service \
     android.hardware.rebootescrow-service.default \
     android.hardware.sensors@1.0-service \
