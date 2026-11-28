@@ -444,7 +444,7 @@ PRODUCT_PACKAGES += \
     dpu.ums512 \
     enhance.ums512 \
     gps.default \
-    gralloc.default \
+    gralloc.default_vnd \
     gsp.ums512 \
     hwcomposer.ums512 \
     local_time.default \
@@ -477,7 +477,7 @@ PRODUCT_PACKAGES += \
     libaudiofoundation_vnd \
     libaudionpi \
     libbt-sprd_suite \
-    libbt-vendor \
+    libbt-vendor_vnd \
     libcamcalitest \
     libcamcommon \
     libcamera2ndk_vendor \
@@ -563,7 +563,7 @@ PRODUCT_PACKAGES += \
     libsprdee_adapter \
     libstagefright_bufferpool@2.0.1_vnd \
     libstagefright_sprd_av1dec \
-    libstagefrighthw \
+    libstagefrighthw_vnd \
     libsupl \
     libteeproduction \
     libtensorflowlite_c \
@@ -607,7 +607,7 @@ PRODUCT_PACKAGES += \
     vendor.sprd.hardware.vdsp@1.0 \
     vendor.sprd.hardware.wcn@1.0 \
     vintf-codecsolution-V1-ndk_platform \
-    android.hardware.soundtrigger@2.0-impl \
+    android.hardware.soundtrigger@2.0-impl_vnd \
     audio.primary.ums512 \
     awinic.audio.effect \
     camera.ums512 \
@@ -748,7 +748,7 @@ PRODUCT_PACKAGES += \
     libverify \
     libvpx_vnd \
     libwapi \
-    libwpa_client \
+    libwpa_client_vnd \
     libwvhidl \
     libyuv420_scaler \
     libwvdrmengine \
@@ -905,7 +905,7 @@ PRODUCT_PACKAGES += \
     android.hardware.rebootescrow-service.default \
     android.hardware.sensors@1.0-service \
     android.hardware.wifi@1.0-service \
-    hostapd \
+    hostapd_vnd \
     samsung.software.media.c2@1.0-service \
     vendor.samsung.hardware.biometrics.face@2.0-service \
     vendor.samsung.hardware.gnss@2.0-service \
@@ -930,7 +930,7 @@ PRODUCT_PACKAGES += \
     vendor.sprd.hardware.thermal@2.0-service \
     vendor.sprd.hardware.trusty@1.0-service \
     vendor.sprd.hardware.wcn@1.0-service \
-    wpa_supplicant \
+    wpa_supplicant_vnd \
     idlestat \
     iod \
     iwnpi \

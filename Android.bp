@@ -1522,7 +1522,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "gralloc.default",
+    name: "gralloc.default_vnd",
+    stem: "gralloc.default",
     owner: "samsung",
     strip: {
         none: true,
@@ -2983,7 +2984,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libbt-vendor",
+    name: "libbt-vendor_vnd",
+    stem: "libbt-vendor",
     owner: "samsung",
     strip: {
         none: true,
@@ -6280,7 +6282,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libstagefright_foundation",
-                "libstagefrighthw",
+                "libstagefrighthw_vnd",
                 "libcutils",
                 "libutils",
                 "liblog",
@@ -6296,7 +6298,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libstagefright_foundation",
-                "libstagefrighthw",
+                "libstagefrighthw_vnd",
                 "libcutils",
                 "libutils",
                 "liblog",
@@ -6684,7 +6686,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libstagefright_omx",
                 "libstagefright_foundation",
-                "libstagefrighthw",
+                "libstagefrighthw_vnd",
                 "libutils",
                 "libui",
                 "libmemion",
@@ -6704,7 +6706,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libstagefright_omx",
                 "libstagefright_foundation",
-                "libstagefrighthw",
+                "libstagefrighthw_vnd",
                 "libutils",
                 "libui",
                 "libmemion",
@@ -6724,7 +6726,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libstagefrighthw",
+    name: "libstagefrighthw_vnd",
+    stem: "libstagefrighthw",
     owner: "samsung",
     strip: {
         none: true,
@@ -7487,7 +7490,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "liblog",
                 "libcutils",
-                "libadf",
                 "libdrm",
                 "libpng",
                 "libc++",
@@ -7503,7 +7505,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "liblog",
                 "libcutils",
-                "libadf",
                 "libdrm",
                 "libpng",
                 "libc++",
@@ -8671,7 +8672,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.soundtrigger@2.0-impl",
+    name: "android.hardware.soundtrigger@2.0-impl_vnd",
+    stem: "android.hardware.soundtrigger@2.0-impl",
     owner: "samsung",
     strip: {
         none: true,
@@ -11947,7 +11949,7 @@ cc_prebuilt_library_shared {
                 "libstagefright_foundation",
                 "libutils",
                 "liblog",
-                "libstagefrighthw",
+                "libstagefrighthw_vnd",
                 "libjpeg",
                 "libc++",
                 "libc",
@@ -12002,7 +12004,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libstagefright_sprd_deintl.so",
             ],
             shared_libs: [
-                "libstagefrighthw",
+                "libstagefrighthw_vnd",
                 "libutils",
                 "libui",
                 "libmemion",
@@ -12035,7 +12037,7 @@ cc_prebuilt_library_shared {
                 "libstagefright_omx",
                 "libstagefright_omx_utils",
                 "libstagefright_foundation",
-                "libstagefrighthw",
+                "libstagefrighthw_vnd",
                 "libutils",
                 "libui",
                 "libmemion",
@@ -12070,7 +12072,7 @@ cc_prebuilt_library_shared {
                 "libstagefright_omx",
                 "libstagefright_omx_utils",
                 "libstagefright_foundation",
-                "libstagefrighthw",
+                "libstagefrighthw_vnd",
                 "libutils",
                 "libui",
                 "libmemion",
@@ -12105,7 +12107,7 @@ cc_prebuilt_library_shared {
                 "libstagefright_omx",
                 "libstagefright_omx_utils",
                 "libstagefright_foundation",
-                "libstagefrighthw",
+                "libstagefrighthw_vnd",
                 "libmedia_omx",
                 "libutils",
                 "libui",
@@ -12140,7 +12142,7 @@ cc_prebuilt_library_shared {
                 "libstagefright_omx",
                 "libstagefright_omx_utils",
                 "libstagefright_foundation",
-                "libstagefrighthw",
+                "libstagefrighthw_vnd",
                 "libmedia_omx",
                 "libutils",
                 "libui",
@@ -12176,7 +12178,7 @@ cc_prebuilt_library_shared {
                 "libstagefright_omx",
                 "libstagefright_omx_utils",
                 "libstagefright_foundation",
-                "libstagefrighthw",
+                "libstagefrighthw_vnd",
                 "libutils",
                 "libui",
                 "libmemion",
@@ -12209,7 +12211,7 @@ cc_prebuilt_library_shared {
                 "libstagefright_omx",
                 "libstagefright_omx_utils",
                 "libstagefright_foundation",
-                "libstagefrighthw",
+                "libstagefrighthw_vnd",
                 "libutils",
                 "libui",
                 "libbinder",
@@ -12242,7 +12244,7 @@ cc_prebuilt_library_shared {
                 "libstagefright_omx",
                 "libstagefright_omx_utils",
                 "libstagefright_foundation",
-                "libstagefrighthw",
+                "libstagefrighthw_vnd",
                 "libmedia_omx",
                 "libutils",
                 "libui",
@@ -12277,7 +12279,7 @@ cc_prebuilt_library_shared {
                 "libstagefright_omx",
                 "libstagefright_omx_utils",
                 "libstagefright_foundation",
-                "libstagefrighthw",
+                "libstagefrighthw_vnd",
                 "libutils",
                 "libui",
                 "libmemion",
@@ -12311,7 +12313,7 @@ cc_prebuilt_library_shared {
                 "libstagefright_omx",
                 "libstagefright_omx_utils",
                 "libstagefright_foundation",
-                "libstagefrighthw",
+                "libstagefrighthw_vnd",
                 "libmedia_omx",
                 "libutils",
                 "libui",
@@ -12346,7 +12348,7 @@ cc_prebuilt_library_shared {
                 "libstagefright_omx",
                 "libstagefright_omx_utils",
                 "libstagefright_foundation",
-                "libstagefrighthw",
+                "libstagefrighthw_vnd",
                 "libutils",
                 "libui",
                 "libmemion",
@@ -12663,7 +12665,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libwpa_client",
+    name: "libwpa_client_vnd",
+    stem: "libwpa_client",
     owner: "samsung",
     strip: {
         none: true,
@@ -12879,7 +12882,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libcutils",
                 "android.hardware.wifi@1.0",
-                "libwpa_client",
+                "libwpa_client_vnd",
                 "libc++",
                 "libc",
                 "libm",
@@ -13318,7 +13321,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "liblog",
                 "libcutils",
-                "libadf",
                 "libpng",
                 "libc++",
                 "libc",
@@ -16315,7 +16317,7 @@ cc_prebuilt_binary {
                 "android.hardware.sensors@1.0",
                 "libmemion",
                 "android.hardware.wifi@1.0",
-                "libwpa_client",
+                "libwpa_client_vnd",
                 "libc++",
                 "libc",
                 "libm",
@@ -16956,7 +16958,9 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "hostapd",
+    name: "hostapd_vnd",
+    stem: "hostapd",
+    overrides: ["hostapd"],
     owner: "samsung",
     target: {
         android_arm64: {
@@ -17789,7 +17793,9 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "wpa_supplicant",
+    name: "wpa_supplicant_vnd",
+    stem: "wpa_supplicant",
+    overrides: ["wpa_supplicant"],
     owner: "samsung",
     target: {
         android_arm64: {
