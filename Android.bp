@@ -17052,6 +17052,7 @@ cc_prebuilt_binary {
                 "libcodec2_vndk",
                 "libhidlbase",
                 "libavservices_minijail_vendor",
+                "libavservices_minijail",
                 "libbinder",
                 "libSecC2ComponentStore",
                 "libc++",
