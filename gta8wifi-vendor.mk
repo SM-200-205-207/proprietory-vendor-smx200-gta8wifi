@@ -389,12 +389,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta8wifi/proprietary/vendor/firmware/vaultkeeper.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/vaultkeeper.elf \
     vendor/samsung/gta8wifi/proprietary/vendor/firmware/vdsp_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vdsp_firmware.bin \
     vendor/samsung/gta8wifi/proprietary/vendor/firmware/warp_cadence.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/warp_cadence.bin \
-    vendor/samsung/gta8wifi/proprietary/vendor/lib/libOpenCL.so.1:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so.1 \
-    vendor/samsung/gta8wifi/proprietary/vendor/lib/libOpenCL.so.1.1:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so.1.1 \
-    vendor/samsung/gta8wifi/proprietary/vendor/lib/libOpenCL.so.1.2:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so.1.2 \
-    vendor/samsung/gta8wifi/proprietary/vendor/lib64/libOpenCL.so.1:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so.1 \
-    vendor/samsung/gta8wifi/proprietary/vendor/lib64/libOpenCL.so.1.1:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so.1.1 \
-    vendor/samsung/gta8wifi/proprietary/vendor/lib64/libOpenCL.so.1.2:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so.1.2 \
     vendor/samsung/gta8wifi/proprietary/vendor/logo/logo_1000x200.rgba:$(TARGET_COPY_OUT_VENDOR)/logo/logo_1000x200.rgba \
     vendor/samsung/gta8wifi/proprietary/vendor/logo/logo_100x20.rgba:$(TARGET_COPY_OUT_VENDOR)/logo/logo_100x20.rgba \
     vendor/samsung/gta8wifi/proprietary/vendor/logo/logo_300x60.rgba:$(TARGET_COPY_OUT_VENDOR)/logo/logo_300x60.rgba \
@@ -464,24 +458,20 @@ PRODUCT_PACKAGES += \
     vendor.sprd.hardware.trusty@1.0-impl \
     vendor.sprd.hardware.wcn@1.0-impl \
     vibrator.default \
-    vulkan.ums512 \
     libGLES_mali \
     libHMT \
     libMNN \
-    libOpenCL \
     libOpenCv.camera.samsung \
     libWhite_point_shift \
     lib_SoundAlive_3DPosition_ver202 \
     libalsautils_vnd \
     libatci \
-    libaudiofoundation_vnd \
     libaudionpi \
     libbt-sprd_suite \
     libbt-vendor_vnd \
     libcamcalitest \
     libcamcommon \
     libcamera2ndk_vendor \
-    libcodec2_hidl@1.1_vnd \
     libcodec2_simple_component_vnd \
     libcodec2_soft_common_vnd \
     libcodecsolutionhelper_vendor \
@@ -561,7 +551,6 @@ PRODUCT_PACKAGES += \
     libsprdaudiohalv6 \
     libsprdee \
     libsprdee_adapter \
-    libstagefright_bufferpool@2.0.1_vnd \
     libstagefright_sprd_av1dec \
     libstagefrighthw_vnd \
     libsupl \
