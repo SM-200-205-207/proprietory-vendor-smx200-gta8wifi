@@ -440,7 +440,7 @@ PRODUCT_PACKAGES += \
     audio.primary.default \
     audio.r_submix.default \
     audio.usb.default \
-    bootctrl.default \
+    bootctrl.default_vnd \
     dpu.ums512 \
     enhance.ums512 \
     gps.default \
@@ -472,20 +472,20 @@ PRODUCT_PACKAGES += \
     libOpenCv.camera.samsung \
     libWhite_point_shift \
     lib_SoundAlive_3DPosition_ver202 \
-    libalsautils \
+    libalsautils_vnd \
     libatci \
-    libaudiofoundation \
+    libaudiofoundation_vnd \
     libaudionpi \
     libbt-sprd_suite \
     libbt-vendor \
     libcamcalitest \
     libcamcommon \
     libcamera2ndk_vendor \
-    libcodec2_hidl@1.1 \
-    libcodec2_simple_component \
-    libcodec2_soft_common \
+    libcodec2_hidl@1.1_vnd \
+    libcodec2_simple_component_vnd \
+    libcodec2_soft_common_vnd \
     libcodecsolutionhelper_vendor \
-    libdav1d \
+    libdav1d_vnd \
     libeng_tok \
     libfloatingfeature \
     libgnssmgt \
@@ -548,7 +548,7 @@ PRODUCT_PACKAGES += \
     libsensorlistcfg \
     libsensornpi \
     libsensorsdrvcfg \
-    libsfplugin_ccodec_utils \
+    libsfplugin_ccodec_utils_vnd \
     libsnaace \
     libsnamrnb \
     libsnamrwb \
@@ -561,13 +561,13 @@ PRODUCT_PACKAGES += \
     libsprdaudiohalv6 \
     libsprdee \
     libsprdee_adapter \
-    libstagefright_bufferpool@2.0.1 \
+    libstagefright_bufferpool@2.0.1_vnd \
     libstagefright_sprd_av1dec \
     libstagefrighthw \
     libsupl \
     libteeproduction \
     libtensorflowlite_c \
-    libtrusty \
+    libtrusty_vnd \
     libtrustyHalHelper \
     libunnengine \
     libvdspservice \
@@ -725,7 +725,7 @@ PRODUCT_PACKAGES += \
     libstagefright_bufferqueue_helper_vendor \
     libstagefright_omx_vendor \
     libstagefright_soft_mjpgdec \
-    libstagefright_softomx_plugin \
+    libstagefright_softomx_plugin_vnd \
     libstagefright_sprd_deintl \
     libstagefright_sprd_h264dec \
     libstagefright_sprd_h264enc \
@@ -812,15 +812,15 @@ PRODUCT_PACKAGES += \
     libgrdm \
     libhwc2onfbadapter \
     libkernelbootcp.trusty \
-    libkeymaster4 \
-    libkeymaster4_1support \
+    libkeymaster4_vnd \
+    libkeymaster4_1support_vnd \
     libkeymaster_helper \
     libkeystore-engine-wifi-hidl \
     libkeystore-wifi-hidl \
     libsec_semHalTlc \
     libsecril-client \
     libskeymaster4device \
-    libsoft_attestation_cert \
+    libsoft_attestation_cert_vnd \
     libsomxcmn \
     libstork_shared \
     libteec \
@@ -853,7 +853,7 @@ PRODUCT_PACKAGES += \
     android.hardware.cas@1.2-service.xml \
     android.hardware.dumpstate@1.1-service-lazy.xml \
     android.hardware.thermal@2.0-service.xml \
-    android.hardware.wifi.hostapd.xml \
+    android.hardware.wifi.hostapd_vnd.xml \
     android.hardware.wifi@1.0-service.xml \
     engmode_manifest.xml \
     hyper-default-sec.xml \
@@ -861,7 +861,7 @@ PRODUCT_PACKAGES += \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
     manifest_trusty.xml \
     radio_manifest_wifionly.xml \
-    rebootescrow-default.xml \
+    rebootescrow-default_vnd.xml \
     sec_c2_manifest_default.xml \
     vaultkeeper_manifest.xml \
     vendor.samsung.hardware.hqm@1.0-manifest.xml \

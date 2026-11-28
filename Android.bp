@@ -1298,7 +1298,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libtinyalsa",
                 "libaudioutils",
-                "libalsautils",
+                "libalsautils_vnd",
                 "libc++",
                 "libc",
                 "libm",
@@ -1314,7 +1314,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libtinyalsa",
                 "libaudioutils",
-                "libalsautils",
+                "libalsautils_vnd",
                 "libc++",
                 "libc",
                 "libm",
@@ -1329,7 +1329,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "bootctrl.default",
+    name: "bootctrl.default_vnd",
+    stem: "bootctrl.default",
     owner: "samsung",
     strip: {
         none: true,
@@ -2356,7 +2357,7 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "libhardware",
                 "vendor.sprd.hardware.trusty@1.0",
-                "libtrusty",
+                "libtrusty_vnd",
                 "libc++",
                 "libc",
                 "libm",
@@ -2374,7 +2375,7 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "libhardware",
                 "vendor.sprd.hardware.trusty@1.0",
-                "libtrusty",
+                "libtrusty_vnd",
                 "libc++",
                 "libc",
                 "libm",
@@ -2765,7 +2766,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libalsautils",
+    name: "libalsautils_vnd",
+    stem: "libalsautils",
     owner: "samsung",
     strip: {
         none: true,
@@ -2853,7 +2855,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libaudiofoundation",
+    name: "libaudiofoundation_vnd",
+    stem: "libaudiofoundation",
     owner: "samsung",
     strip: {
         none: true,
@@ -3170,7 +3173,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libcodec2_hidl@1.1",
+    name: "libcodec2_hidl@1.1_vnd",
+    stem: "libcodec2_hidl@1.1",
     owner: "samsung",
     strip: {
         none: true,
@@ -3196,7 +3200,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libhidlbase",
                 "liblog",
-                "libstagefright_bufferpool@2.0.1",
+                "libstagefright_bufferpool@2.0.1_vnd",
                 "libui",
                 "libutils",
                 "libstagefright_bufferqueue_helper",
@@ -3226,7 +3230,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libhidlbase",
                 "liblog",
-                "libstagefright_bufferpool@2.0.1",
+                "libstagefright_bufferpool@2.0.1_vnd",
                 "libui",
                 "libutils",
                 "libstagefright_bufferqueue_helper",
@@ -3243,7 +3247,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libcodec2_simple_component",
+    name: "libcodec2_simple_component_vnd",
+    stem: "libcodec2_simple_component",
     owner: "samsung",
     strip: {
         none: true,
@@ -3290,7 +3295,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libcodec2_soft_common",
+    name: "libcodec2_soft_common_vnd",
+    stem: "libcodec2_soft_common",
     owner: "samsung",
     strip: {
         none: true,
@@ -3307,7 +3313,7 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libcutils",
                 "liblog",
-                "libsfplugin_ccodec_utils",
+                "libsfplugin_ccodec_utils_vnd",
                 "libstagefright_foundation",
                 "libc++",
                 "libc",
@@ -3326,7 +3332,7 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libcutils",
                 "liblog",
-                "libsfplugin_ccodec_utils",
+                "libsfplugin_ccodec_utils_vnd",
                 "libstagefright_foundation",
                 "libc++",
                 "libc",
@@ -3386,7 +3392,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libdav1d",
+    name: "libdav1d_vnd",
+    stem: "libdav1d",
     owner: "samsung",
     strip: {
         none: true,
@@ -4241,7 +4248,7 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "liblog",
                 "libcutils",
-                "libdav1d",
+                "libdav1d_vnd",
                 "libc++",
                 "libc",
                 "libm",
@@ -4256,7 +4263,7 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "liblog",
                 "libcutils",
-                "libdav1d",
+                "libdav1d_vnd",
                 "libc++",
                 "libc",
                 "libm",
@@ -6016,7 +6023,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libsfplugin_ccodec_utils",
+    name: "libsfplugin_ccodec_utils_vnd",
+    stem: "libsfplugin_ccodec_utils",
     owner: "samsung",
     strip: {
         none: true,
@@ -6319,7 +6327,7 @@ cc_prebuilt_library_shared {
                 "android.hardware.audio.common-util",
                 "android.hidl.allocator@1.0",
                 "android.hidl.memory@1.0",
-                "libaudiofoundation",
+                "libaudiofoundation_vnd",
                 "libsprdaudiohal_deathhandlerv6",
                 "libaudioutils",
                 "libbase",
@@ -6350,7 +6358,7 @@ cc_prebuilt_library_shared {
                 "android.hardware.audio.common-util",
                 "android.hidl.allocator@1.0",
                 "android.hidl.memory@1.0",
-                "libaudiofoundation",
+                "libaudiofoundation_vnd",
                 "libsprdaudiohal_deathhandlerv6",
                 "libaudioutils",
                 "libbase",
@@ -6394,7 +6402,7 @@ cc_prebuilt_library_shared {
                 "android.hardware.audio.common-util",
                 "android.hidl.allocator@1.0",
                 "android.hidl.memory@1.0",
-                "libaudiofoundation",
+                "libaudiofoundation_vnd",
                 "libsprdaudiohal_deathhandlerv6",
                 "libaudioutils",
                 "libbase",
@@ -6425,7 +6433,7 @@ cc_prebuilt_library_shared {
                 "android.hardware.audio.common-util",
                 "android.hidl.allocator@1.0",
                 "android.hidl.memory@1.0",
-                "libaudiofoundation",
+                "libaudiofoundation_vnd",
                 "libsprdaudiohal_deathhandlerv6",
                 "libaudioutils",
                 "libbase",
@@ -6615,7 +6623,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libstagefright_bufferpool@2.0.1",
+    name: "libstagefright_bufferpool@2.0.1_vnd",
+    stem: "libstagefright_bufferpool@2.0.1",
     owner: "samsung",
     strip: {
         none: true,
@@ -6820,7 +6829,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libteeproduction.so",
             ],
             shared_libs: [
-                "libtrusty",
+                "libtrusty_vnd",
                 "liblog",
                 "libcutils",
                 "librpmbclient",
@@ -6835,7 +6844,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libteeproduction.so",
             ],
             shared_libs: [
-                "libtrusty",
+                "libtrusty_vnd",
                 "liblog",
                 "libcutils",
                 "librpmbclient",
@@ -6891,7 +6900,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libtrusty",
+    name: "libtrusty_vnd",
+    stem: "libtrusty",
     owner: "samsung",
     strip: {
         none: true,
@@ -7080,7 +7090,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libvsp_ca.so",
             ],
             shared_libs: [
-                "libtrusty",
+                "libtrusty_vnd",
                 "liblog",
                 "libcutils",
                 "libtrustyHalHelper",
@@ -7095,7 +7105,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libvsp_ca.so",
             ],
             shared_libs: [
-                "libtrusty",
+                "libtrusty_vnd",
                 "liblog",
                 "libcutils",
                 "libtrustyHalHelper",
@@ -8715,7 +8725,7 @@ cc_prebuilt_library_shared {
                 "libaudiodump",
                 "libaudiomiscctl",
                 "libbase",
-                "libalsautils",
+                "libalsautils_vnd",
                 "libtinyxml",
                 "libc++",
                 "libc",
@@ -10616,7 +10626,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libcrypto",
-                "libtrusty",
+                "libtrusty_vnd",
                 "liblog",
                 "libcutils",
                 "libmemion",
@@ -11952,7 +11962,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libstagefright_softomx_plugin",
+    name: "libstagefright_softomx_plugin_vnd",
+    stem: "libstagefright_softomx_plugin",
     owner: "samsung",
     strip: {
         none: true,
@@ -13792,7 +13803,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libnativewindow",
                 "libstagefright_foundation",
-                "libstagefright_bufferpool@2.0.1",
+                "libstagefright_bufferpool@2.0.1_vnd",
                 "libui",
                 "libutils",
                 "libc++",
@@ -13848,11 +13859,11 @@ cc_prebuilt_library_shared {
                 "libcodec2",
                 "libcodec2_vndk",
                 "libSecC2ComponentStore",
-                "libcodec2_soft_common",
+                "libcodec2_soft_common_vnd",
                 "libcodec2_sec_soft_common",
                 "libcutils",
                 "liblog",
-                "libsfplugin_ccodec_utils",
+                "libsfplugin_ccodec_utils_vnd",
                 "libstagefright_foundation",
                 "libsavsac",
                 "libsomxcmn",
@@ -13885,11 +13896,11 @@ cc_prebuilt_library_shared {
                 "libcodec2",
                 "libcodec2_vndk",
                 "libSecC2ComponentStore",
-                "libcodec2_soft_common",
+                "libcodec2_soft_common_vnd",
                 "libcodec2_sec_soft_common",
                 "libcutils",
                 "liblog",
-                "libsfplugin_ccodec_utils",
+                "libsfplugin_ccodec_utils_vnd",
                 "libstagefright_foundation",
                 "libsavsac",
                 "libsomxcmn",
@@ -13926,7 +13937,7 @@ cc_prebuilt_library_shared {
                 "libcodec2_sec_soft_common",
                 "libcutils",
                 "liblog",
-                "libsfplugin_ccodec_utils",
+                "libsfplugin_ccodec_utils_vnd",
                 "libstagefright_foundation",
                 "libsnamrnb",
                 "libsnamrwb",
@@ -13962,7 +13973,7 @@ cc_prebuilt_library_shared {
                 "libcodec2_sec_soft_common",
                 "libcutils",
                 "liblog",
-                "libsfplugin_ccodec_utils",
+                "libsfplugin_ccodec_utils_vnd",
                 "libstagefright_foundation",
                 "libsnamrnb",
                 "libsnamrwb",
@@ -13996,10 +14007,10 @@ cc_prebuilt_library_shared {
                 "libcodec2_vndk",
                 "libSecC2ComponentStore",
                 "libcodec2_sec_soft_common",
-                "libcodec2_soft_common",
+                "libcodec2_soft_common_vnd",
                 "libcutils",
                 "liblog",
-                "libsfplugin_ccodec_utils",
+                "libsfplugin_ccodec_utils_vnd",
                 "libstagefright_foundation",
                 "libsavsac",
                 "libsomxcmn",
@@ -14036,7 +14047,7 @@ cc_prebuilt_library_shared {
                 "libcodec2_sec_soft_common",
                 "libcutils",
                 "liblog",
-                "libsfplugin_ccodec_utils",
+                "libsfplugin_ccodec_utils_vnd",
                 "libstagefright_foundation",
                 "libsavsac",
                 "libsavscmn",
@@ -14069,10 +14080,10 @@ cc_prebuilt_library_shared {
                 "libcodec2_vndk",
                 "libSecC2ComponentStore",
                 "libcodec2_sec_soft_common",
-                "libcodec2_soft_common",
+                "libcodec2_soft_common_vnd",
                 "libcutils",
                 "liblog",
-                "libsfplugin_ccodec_utils",
+                "libsfplugin_ccodec_utils_vnd",
                 "libstagefright_foundation",
                 "libsavsac",
                 "libsomxcmn",
@@ -14108,7 +14119,7 @@ cc_prebuilt_library_shared {
                 "libcodec2_sec_soft_common",
                 "libcutils",
                 "liblog",
-                "libsfplugin_ccodec_utils",
+                "libsfplugin_ccodec_utils_vnd",
                 "libstagefright_foundation",
                 "libsavsvc",
                 "libsavscmn",
@@ -14142,7 +14153,7 @@ cc_prebuilt_library_shared {
                 "libcodec2_vndk",
                 "libutils",
                 "libcutils",
-                "libsfplugin_ccodec_utils",
+                "libsfplugin_ccodec_utils_vnd",
                 "libstagefright_foundation",
                 "libc++",
                 "libc",
@@ -14175,7 +14186,7 @@ cc_prebuilt_library_shared {
                 "libcodec2_sec_soft_common",
                 "libcutils",
                 "liblog",
-                "libsfplugin_ccodec_utils",
+                "libsfplugin_ccodec_utils_vnd",
                 "libstagefright_foundation",
                 "libsavsvc",
                 "libsavscmn",
@@ -14206,7 +14217,7 @@ cc_prebuilt_library_shared {
                 "libbase",
                 "libcodec2",
                 "libcodec2_vndk",
-                "libcodec2_soft_common",
+                "libcodec2_soft_common_vnd",
                 "libSecC2ComponentStore",
                 "libstagefright_foundation",
                 "libdeccfg",
@@ -14241,7 +14252,7 @@ cc_prebuilt_library_shared {
                 "libbase",
                 "libcodec2",
                 "libcodec2_vndk",
-                "libcodec2_soft_common",
+                "libcodec2_soft_common_vnd",
                 "libSecC2ComponentStore",
                 "libstagefright_foundation",
                 "libdeccfg",
@@ -14543,7 +14554,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libkernelbootcp.trusty.so",
             ],
             shared_libs: [
-                "libtrusty",
+                "libtrusty_vnd",
                 "liblog",
                 "libcutils",
                 "libc++",
@@ -14559,7 +14570,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libkeymaster4",
+    name: "libkeymaster4_vnd",
+    stem: "libkeymaster4",
     owner: "samsung",
     strip: {
         none: true,
@@ -14594,7 +14606,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libkeymaster4_1support",
+    name: "libkeymaster4_1support_vnd",
+    stem: "libkeymaster4_1support",
     owner: "samsung",
     strip: {
         none: true,
@@ -14643,11 +14656,11 @@ cc_prebuilt_library_shared {
                 "android.hardware.keymaster@4.0",
                 "android.hardware.keymaster@4.1",
                 "libkeymaster4support",
-                "libkeymaster4_1support",
+                "libkeymaster4_1support_vnd",
                 "libhidlbase",
                 "libcrypto",
                 "libgrdm",
-                "libtrusty",
+                "libtrusty_vnd",
                 "libteec",
                 "libc++",
                 "libc",
@@ -14735,7 +14748,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libutils",
                 "libcutils",
-                "libtrusty",
+                "libtrusty_vnd",
                 "libteec",
                 "libc++",
                 "libc",
@@ -14812,7 +14825,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libsoft_attestation_cert",
+    name: "libsoft_attestation_cert_vnd",
+    stem: "libsoft_attestation_cert",
     owner: "samsung",
     strip: {
         none: true,
@@ -14903,7 +14917,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libcutils",
                 "liblog",
-                "libtrusty",
+                "libtrusty_vnd",
                 "libc++",
                 "libc",
                 "libm",
@@ -14932,7 +14946,7 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libcutils",
                 "libtlc_direct_comm_iccc",
-                "libtrusty",
+                "libtrusty_vnd",
                 "libc++",
                 "libm",
                 "libdl",
@@ -14960,7 +14974,7 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libcutils",
                 "libteec",
-                "libtrusty",
+                "libtrusty_vnd",
                 "libc++",
                 "libm",
                 "libdl",
@@ -15012,7 +15026,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libcutils",
                 "liblog",
-                "libtrusty",
+                "libtrusty_vnd",
                 "libc++",
                 "libc",
                 "libm",
@@ -15675,7 +15689,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "android.hardware.wifi.hostapd.xml",
+    name: "android.hardware.wifi.hostapd_vnd.xml",
     owner: "samsung",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml",
     filename_from_src: true,
@@ -15747,7 +15761,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "rebootescrow-default.xml",
+    name: "rebootescrow-default_vnd.xml",
     owner: "samsung",
     src: "proprietary/vendor/etc/vintf/manifest/rebootescrow-default.xml",
     filename_from_src: true,
@@ -16687,7 +16701,7 @@ cc_prebuilt_binary {
                 "libutils",
                 "liblog",
                 "libcutils",
-                "libtrusty",
+                "libtrusty_vnd",
                 "libc++",
                 "libc",
                 "libm",
@@ -16789,7 +16803,7 @@ cc_prebuilt_binary {
                 "libutils",
                 "libhardware",
                 "libhidlbase",
-                "libkeymaster4",
+                "libkeymaster4_vnd",
                 "android.hardware.keymaster@4.0",
                 "libskeymaster4device",
                 "libc++",
@@ -16994,7 +17008,7 @@ cc_prebuilt_binary {
                 "android.hardware.media.c2@1.0",
                 "android.hardware.media.c2@1.1",
                 "libcodec2_hidl@1.0",
-                "libcodec2_hidl@1.1",
+                "libcodec2_hidl@1.1_vnd",
                 "libcodec2_vndk",
                 "libhidlbase",
                 "libavservices_minijail_vendor",
@@ -17364,7 +17378,7 @@ cc_prebuilt_binary {
                 "android.hidl.memory.token@1.0",
                 "vendor.samsung.hardware.tlc.kg@1.0",
                 "vendor.samsung.hardware.tlc.kg@1.1",
-                "libtrusty",
+                "libtrusty_vnd",
                 "libteec",
                 "libc",
                 "libcutils",
@@ -18480,7 +18494,7 @@ cc_prebuilt_binary {
             shared_libs: [
                 "liblog",
                 "libcutils",
-                "libtrusty",
+                "libtrusty_vnd",
                 "libc++",
                 "libc",
                 "libm",
@@ -18588,7 +18602,7 @@ cc_prebuilt_binary {
             shared_libs: [
                 "liblog",
                 "libcutils",
-                "libtrusty",
+                "libtrusty_vnd",
                 "libc++",
                 "libc",
                 "libm",
@@ -18644,7 +18658,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/tsupplicant",
             ],
             shared_libs: [
-                "libtrusty",
+                "libtrusty_vnd",
                 "libcutils",
                 "libutils",
                 "liblog",
@@ -18783,7 +18797,7 @@ cc_prebuilt_binary {
                 "libdl",
                 "libcrypto",
                 "libcutils",
-                "libtrusty",
+                "libtrusty_vnd",
                 "libmemion",
                 "liboemcrypto",
                 "liblog",
