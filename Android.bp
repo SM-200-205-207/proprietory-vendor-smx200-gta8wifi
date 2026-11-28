@@ -12598,7 +12598,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libvpx",
+    name: "libvpx_vnd",
+    stem: "libvpx",
     owner: "samsung",
     strip: {
         none: true,

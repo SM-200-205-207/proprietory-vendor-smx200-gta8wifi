@@ -746,7 +746,7 @@ PRODUCT_PACKAGES += \
     libvcm_a802_hi846_backhlt_fp5510 \
     libvcm_a803_gc08a3_backhxl_cn3927v \
     libverify \
-    libvpx \
+    libvpx_vnd \
     libwapi \
     libwpa_client \
     libwvhidl \
