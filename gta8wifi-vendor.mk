@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/gta8wifi
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/gta8wifi/proprietary/system_ext/etc/init/data_rps.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/data_rps.rc \
     vendor/samsung/gta8wifi/proprietary/vendor/atcmdlist:$(TARGET_COPY_OUT_VENDOR)/atcmdlist \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/BBAT.conf:$(TARGET_COPY_OUT_VENDOR)/etc/BBAT.conf \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/PCBA.conf:$(TARGET_COPY_OUT_VENDOR)/etc/PCBA.conf \
